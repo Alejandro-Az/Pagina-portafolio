@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>Potrfolio</title>
+</head>
+<body>
+    <!--Menu encabezado-->
+    <div class="contenedor-header">
+        <header>
+        <div class="logo">
+            <a href="#">Alejandro Az.</a>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+    </div>
+
+    <!--Menu encabezado-->
+    
+    <div class="contenedor-header"></div>
+
+    <section id="inicio" class="inicio">
+        
+        <div class="card">
+            <div class="lines"></div>
+            
+            <div class="imgBx">
+                <img src="https://i.pinimg.com/736x/25/78/61/25786134576ce0344893b33a051160b1.jpg" alt="">
+            </div>
+    
+            <div class="content">
+                <div class="details">
+                    <h2> Alejandro Azuara <br> <span>Desarrollador web</span> </h2>
+                    <div class="data">
+                        <h3><span><a href="#"><i class="fa-brands fa-whatsapp"></i></a></span></h3>
+                        <h3><span><a href="#"><i class="fa-brands fa-instagram"></i></a></span></h3>
+                        <h3><span><a href="#"><i class="fa-brands fa-linkedin"></i></a></span></h3>
+                    </div>
+                    <div class="actionBtn">                        
+                        <a href="#contacto" onclick="seleccionar()">CONTACTAR</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--Menu encabezado-->
+
+    <!--Seccion sobre mi-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>sobre mi</h2>
+            <p><span>Hola, soy Alejandro.</span>
+                Estudiante de ingeniería en sistemas computacionales con habilidades de diseño, análisis de sistemas, 
+                desarrollo y mantenimiento de software. Poseo conocimientos en lenguajes de programación
+                como Javascript, PHP, C# y Python, además manejo bases de datos MySQL 
+                y sistemas operativos Windows y Linux. También tengo habilidad con el lenguaje de marcado
+                HTML5 y estilos CSS3.
+            </p>
+            <p>
+                Disfruto mucho de adquirir mis conocimientos y habilidades por medio del estudio autodidacta en su mayoría.
+                He tomado cursos y completado certificados así como diplomas en distintas plataformas de educación en línea tales como Udemy, 
+                free-code-camp, OpenBootcamp y Capacítate para el empleo de la fundación Carlos Slim.
+
+                Además, he tomado cursos en YouTube impartidos por diversos creadores de contenido que 
+                se dedican profesionalmente a diversas áreas del desarrollo tanto para el desarrollo de aplicaciones móviles, 
+                desarrollo de software como desarrollo web.
+
+                Me interesa mi educación y mejora constante es por ello que dedico gran parte de mi tiempo a la universidad 
+                y al estudio continuo de cursos en las plataformas ya mencionadas y no tendría ningún problema en recibir más formación de la empresa
+                que me acepte, busco una oportunidad para aplicar mis habilidades y conocimientos en un ambiente laboral desafiante 
+                y en constante evolución, donde pueda seguir aprendiendo y comenzar a desarrollar mi carrera profesional.
+            </p>
+
+            <div class="fila">
+                <!--datos personales-->
+                <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Fecha de nacimiento</strong>
+                            15-07-1997
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            2229193269
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            <a href="#">Página web</a>
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Puebla, Puebla.
+                        </li>
+                        <li>
+                            <strong>Ocupación</strong>
+                            <span>ESTUDIANTE</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <!--intereses-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-windows"></i>
+                            <span>WINDOWS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-mug-hot"></i>
+                            <span>CAFÉ</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-comments"></i>
+                            <span>SOCIAL</span>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!--Seccion Skills-->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--Technical skill-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>JavaScript (Node.js)</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>PHP</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python (Django)</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SQL (MySQL, PostgreSQL)</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Professional Skills-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Seccion curriculum-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingeniería en sistemas computacionales</h4>
+                        <span class="casa">Universidad Alvart</span>
+                        <span class="fecha">2019 - 2023</span>
+                        <p>
+                            Soy graduado de la carrera de Ingeniería en Sistemas Computacionales de la Universidad Alvart, 
+                            donde mi travesía educativa fue un viaje de descubrimiento y maestría en diversas áreas de la informática.
+                            A lo largo de mi formación, construí una sólida base en programación, comenzando desde cero con pseudocódigo en PSEINT. 
+                            Progresé hacia lenguajes de programación fundamentales como C++ y Java, 
+                            abordando desafíos de algoritmos para perfeccionar mi lógica de programación.
+                        </p>
+                            <br>
+                        <p>
+                            El mundo del desarrollo de software se abrió ante mí con C# en Visual Studio, 
+                            donde adquirí habilidades en programación orientada a objetos, algoritmos de ordenamiento 
+                            y diseño de interfaces utilizando las herramientas proporcionadas por este entorno de desarrollo integrado.
+                        </p>
+                            <br>
+                        <p>
+                            Mi inmersión en el desarrollo de software continuó con el dominio de bases de datos relacionales, 
+                            empleando gestores como MySQL con herramientas como Workbench y PHPMyAdmin. 
+                            No solo aprendí a realizar operaciones CRUD con distintos proyectos, 
+                            sino también a implementar medidas de seguridad cruciales, como la prevención de SQL Injection 
+                            y la encriptación de contraseñas.
+                        </p>
+                            <br>
+                        <p>
+                            Exploré más allá de las bases de datos relacionales, adentrándome en el mundo de las bases de datos no relacionales, 
+                            comprensión de documentos y el manejo del formato JSON.
+                        </p>
+                            <br>
+                        <p>
+                            La fase siguiente de mi educación me llevó al universo del desarrollo web, 
+                            comenzando desde lo más básico con HTML, CSS y JavaScript. Rápidamente avancé para conectar con Firebase, 
+                            y amplié mi conocimiento al mundo del desarrollo web con Python a través de Django. Además, fui introducido a PHP, 
+                            donde no solo dominé la creación de operaciones CRUD y cifrado de datos, sino que también 
+                            me familiaricé con las particularidades de mysqli y PDO, y se me enseñó el framework Laravel.
+                        </p>
+                            <br>
+                        <p>
+                            Continuando con mi diversificación en el ámbito del desarrollo, exploré el desarrollo de aplicaciones móviles 
+                            utilizando Kotlin y Java en el entorno Android Studio. La experiencia previa en desarrollo web 
+                            y Firebase resultó invaluable, proporcionándome un contexto sólido y habilidades transferibles 
+                            para afrontar este emocionante paso.
+                        </p>
+                        <br>
+                        <p>
+                            Mi viaje educativo ha sido un proceso continuo de crecimiento, 
+                            diversificación y adaptación a nuevas tecnologías, lo cual me ha dotado de una perspectiva integral 
+                            y habilidades versátiles en el vasto campo del desarrollo de software.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia odio ea asperiores excepturi saepe. Aliquam delectus nobis voluptate soluta, quaerat ea, doloremque facilis facere adipisci dolor eum aperiam? Cumque, iste?
+                        Recusandae nesciunt delectus sed accusamus facilis velit soluta quasi autem eos saepe, animi explicabo rem repudiandae libero praesentium? Omnis repellat, dolore officiis exercitationem quis quisquam soluta minima nam amet a.
+                        Sequi, quasi at. Illum totam ut nisi sit excepturi fuga praesentium aliquid amet corporis iste illo nam blanditiis soluta doloremque officia fugiat, error molestias! Ipsa officiis voluptatem dolore libero voluptate.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Arte y Multimedia</h4>
+                        <span class="casa">Universidad de Oxford</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia odio ea asperiores excepturi saepe. Aliquam delectus nobis voluptate soluta, quaerat ea, doloremque facilis facere adipisci dolor eum aperiam? Cumque, iste?
+                        Recusandae nesciunt delectus sed accusamus facilis velit soluta quasi autem eos saepe, animi explicabo rem repudiandae libero praesentium? Omnis repellat, dolore officiis exercitationem quis quisquam soluta minima nam amet a.
+                        Sequi, quasi at. Illum totam ut nisi sit excepturi fuga praesentium aliquid amet corporis iste illo nam blanditiis soluta doloremque officia fugiat, error molestias! Ipsa officiis voluptatem dolore libero voluptate.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Desarrollador fullstack</h4>
+                        <span class="casa">Sistema estatal DIF gobierno de Puebla</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>
+                            Durante mi servicio social, lideré el desarrollo de una aplicación web destinada a la gestión eficiente de
+                            reportes dentro del área de soporte técnico del sistema estatal DIF en diversas sedes.
+                        </p>
+                        <br>
+                        <h4>Descripción del Proyecto:</h4>
+                        <p>
+                            La aplicación que diseñé y desarrollé permite la generación, gestión y eliminación de reportes provenientes
+                            de distintas áreas y sedes de la institución. Esta plataforma cuenta con roles diferenciados para usuarios,
+                            administradores y técnicos, cada uno con funciones específicas.
+                        </p>
+                        <br>
+                        <ul>
+                            <li><strong>Usuario:</strong> Capaz de generar reportes, con la capacidad de incluir imágenes en sus registros.</li>
+                            <li><strong>Administrador:</strong> Con la facultad de asignar técnicos a cada reporte, así como eliminar y crear nuevos reportes.</li>
+                            <li><strong>Técnico:</strong> Encargado de visualizar los reportes asignados por el administrador, indicar el estado del servicio y marcarlos como completados.</li>
+                        </ul>
+                        <br>
+                        <p>
+                            La creación de un reporte incluye detalles cruciales como la fecha y hora de levantamiento, un token único
+                            para identificación, y registra el nombre y área del usuario. Al marcar un reporte como completado, se permite
+                            seleccionar la fecha y hora de finalización del servicio.
+                        </p>
+                        <br>
+                        <h4>Este proyecto abarcó:</h4>
+                        <ul>
+                            <li>Diseño y conexión a la base de datos.</li>
+                            <li>Implementación de una base de datos relacional.</li>
+                            <li>Desarrollo de un diseño responsivo.</li>
+                            <li>Gestión de usuarios y roles.</li>
+                            <li>Ingeniería de software.</li>
+                            <li>Despliegue efectivo de la aplicación.</li>
+                        </ul>
+                        <br>
+                        <h4>Tecnologías Utilizadas:</h4>
+                        <ul>
+                            <li>PHP (PDO, SHA1)</li>
+                            <li>SQL</li>
+                            <li>CSS</li>
+                            <li>Bootstrap</li>
+                            <li>Font Awesome</li>
+                        </ul>
+                        <br>
+                        <h4>Herramientas Utilizadas:</h4>
+                        <ul>
+                            <li>XAMPP</li>
+                            <li>Visual Studio Code</li>
+                            <li>PHPMyAdmin</li>
+                            <li>Gaphor</li>
+                            <li>Framework para la creación de tablas</li>
+                            <br>
+                        </ul>
+                    
+                        <hr>
+                        <br>
+                        <p>
+                            Este proyecto no solo consolidó mis habilidades técnicas, sino también mi capacidad para diseñar soluciones
+                            prácticas y funcionales para necesidades específicas del área de soporte técnico. Estoy emocionado por
+                            continuar aplicando y ampliando estas habilidades en entornos desafiantes.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de compañía</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia odio ea asperiores excepturi saepe. Aliquam delectus nobis voluptate soluta, quaerat ea, doloremque facilis facere adipisci dolor eum aperiam? Cumque, iste?
+                        Recusandae nesciunt delectus sed accusamus facilis velit soluta quasi autem eos saepe, animi explicabo rem repudiandae libero praesentium? Omnis repellat, dolore officiis exercitationem quis quisquam soluta minima nam amet a.
+                        Sequi, quasi at. Illum totam ut nisi sit excepturi fuga praesentium aliquid amet corporis iste illo nam blanditiis soluta doloremque officia fugiat, error molestias! Ipsa officiis voluptatem dolore libero voluptate.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de compañía</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia odio ea asperiores excepturi saepe. Aliquam delectus nobis voluptate soluta, quaerat ea, doloremque facilis facere adipisci dolor eum aperiam? Cumque, iste?
+                        Recusandae nesciunt delectus sed accusamus facilis velit soluta quasi autem eos saepe, animi explicabo rem repudiandae libero praesentium? Omnis repellat, dolore officiis exercitationem quis quisquam soluta minima nam amet a.
+                        Sequi, quasi at. Illum totam ut nisi sit excepturi fuga praesentium aliquid amet corporis iste illo nam blanditiis soluta doloremque officia fugiat, error molestias! Ipsa officiis voluptatem dolore libero voluptate.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Seccion Portfolio-->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="./img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografía</p>
+                    </div>                    
+                </div>
+                <div class="proyecto">
+                    <img src="./img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografía</p>
+                    </div>                    
+                </div>
+                <div class="proyecto">
+                    <img src="./img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografía</p>
+                    </div>                    
+                </div>
+                <div class="proyecto">
+                    <img src="./img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografía</p>
+                    </div>                    
+                </div>
+                <div class="proyecto">
+                    <img src="./img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografía</p>
+                    </div>                    
+                </div>
+                <div class="proyecto">
+                    <img src="./img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografía</p>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Seccion contacto-->
+    <div id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!--Formulario-->
+                <div class="col">
+                    <input type="text" placeholder="Tú nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>                    
+                </div>
+                <!--Mapa-->
+                <div class="col">
+                    <img src="./img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Nicaragua 159, San Rafael Mza
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: 2229193269
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: pabloazuara800@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
