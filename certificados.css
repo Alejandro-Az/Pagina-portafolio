@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contenedor .carlosSlim {
+    text-align: center;
+    border: 4px solid black;
+    background-color: #131517;
+}
+
+.contenedor .carlosSlim a img {
+    width: 20%;
+}
+
+.contenedor .esset {
+    text-align: center;
+    border: 4px solid black;
+    background-color: #252A2E;
+}
+
+.contenedor .openBootcamp {
+    text-align: center;
+    border: 4px solid black;
+    background-color: #131517;
+}
+
+.contenedor .openBootcamp img {
+    width: 30%;
+}
+
+.contenedor .udemyGoogle {
+    text-align: center;
+    border: 4px solid black;
+    background-color: #252A2E;
+}
+
+.contenedor .udemyGoogle img {
+    width: 40%;
+}
