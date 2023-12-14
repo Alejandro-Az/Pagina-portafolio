@@ -1,0 +1,12 @@
+Siguientes pasos:
+Darle estilos a la página de certificados...
+Vincular los certificados a sus respectivas páginas.
+Agregar descripciones de cada curso a cada certificado,
+quizá si se oscurece el certificado y por encima aparece
+la descripción de los certificados.
+
+Revisar la redacción y otografía de cada sección.
+
+Subir la página a un host...
+
+Averiguar como subir los proyectos a la web...
