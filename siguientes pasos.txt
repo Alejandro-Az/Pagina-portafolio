@@ -5,6 +5,9 @@ Agregar descripciones de cada curso a cada certificado,
 quizá si se oscurece el certificado y por encima aparece
 la descripción de los certificados.
 
+Ya quedaron los cursos de Capacitate para empleo, ahora hay
+que continuar con los siguientes certificados.
+
 Revisar la redacción y otografía de cada sección.
 
 Subir la página a un host...
